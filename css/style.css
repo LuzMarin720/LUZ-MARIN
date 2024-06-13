@@ -1,0 +1,270 @@
+/******************************/
+/* ESTILOS GENERALES */
+/******************************/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*body*/
+/*Header*/
+/*100vh*/
+
+header {
+    min-height: 10vh;
+    background-color: rgb(235, 170, 216);
+
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.divisor {
+    height: 20px;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+
+/*main*/
+
+main {
+    min-height: 85vh;
+    background-color: rgb(243, 216, 242);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.main-imagen {
+    min-height: 30vh;
+    width: 100%;
+    height: 350px;
+    padding: 2%;
+
+}
+
+/*main about*/
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+/*main contact*/
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+/*main information*/
+
+
+/*footer*/
+
+footer {
+    min-height: 5vh;
+    background-color: rgb(191, 133, 245);
+    text-align: center;
+}
+
+
+.logo {
+    width: 80px;
+    object-fit: contain;
+    margin-left: 90%;
+    position: absolute;
+}
+
+.navbar {
+    height: 8vh;
+    padding: 35px 0px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: nome;
+    color: black;
+    background-color: rgb(235, 200, 220);
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid rgb(15, 2, 4);
+    margin: 15px;
+    padding: 9px;
+    border-radius: 30px;
+    box-shadow: 8px -6px 8px -1px rgb(168, 145, 168)
+}
+
+/******************************/
+/* ESTILOS DE LA PAGINA INDEX */
+/******************************/
+.subcover {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    outline: auto;
+}
+
+.text-cover {
+    text-align: justify;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 100px;
+}
+
+/******************************/
+/* ESTILOS DE LA PAGINA ABOUT */
+/******************************/
+
+.products {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 16%;
+}
+
+.text-products {
+    position: absolute;
+    margin-top: 10%;
+    width: 40%;
+    text-align: justify;
+    height: auto;
+    margin-left: 40%;
+}
+
+/******************************/
+/* ESTILOS DE LA PAGINA CONTACT */
+/******************************/
+
+.main-imagencontact {
+    max-height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1%;
+    object-fit: fill;
+
+}
+
+.text-covercontact {
+    font-size: large;
+    text-align: justify;
+    width: 75%;
+    margin-left: 10%;
+}
+
+.contact-data {
+    font-size: large;
+    float: left;
+    width: 20%;
+    margin-left: 18%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/******************************/
+/* ESTILOS DE LA PAGINA INFORMATION  */
+/******************************/
+table,
+tr,
+td,
+th {
+    border: 2px solid white;
+    padding: 30px;
+}
+
+.forma {
+    margin-top: 2%;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+
+
+}
+
+.table {
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    background-color: black;
+    width: 50%;
+    letter-spacing: 2px;
+
+}
+
+th {
+    background-color: black;
+    color: bisque;
+
+}
+
+th,
+td {
+
+    padding: 10p;
+}
+
+/******************************/
+/* ESTILOS DE LA PAGINA BENEFITS  */
+/******************************/
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2%;
+    padding: 3%;
+    border-color: black;
+    border-style: solid;
+}
+
+.ordered-list {
+    margin-right: 10px;
+    width: 100%;
+}
+
+.unordered-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.unordered-list li {
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
