@@ -65,10 +65,21 @@ main {
 }
 
 /*main about*/
-.flex {
+.flexMap {
     display: flex;
     align-items: center;
     justify-content: space-around
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.products-info{
+    display: flex;
 }
 
 /*main contact*/
@@ -338,9 +349,7 @@ fieldset{
     }
 
     .text-products {
-        width: 100%;
         padding: 10px;
-
     }
 
     .contact-data {
@@ -350,7 +359,7 @@ fieldset{
         padding: 10px;       
     }
 
-    .flex {
+    .flexMap {
         flex-direction: column-reverse;
         padding: 20px;
     }
@@ -359,11 +368,25 @@ fieldset{
         flex-direction: column;
     }
 
+    .products-info{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
 }
 
 @media screen and ( min-width:768px) and (max-width:1024px){
     .products{
         margin-left: 25%;
+    }
+
+    .products-info{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .text-products {
+        padding: 10px;
     }
 }
 
@@ -411,4 +434,6 @@ fieldset{
         margin-left: 25px;
         margin-right: 100px;
     }
+
+
 }
